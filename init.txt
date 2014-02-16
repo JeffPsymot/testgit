@@ -1,0 +1,5 @@
+git init //création du dépot local
+git remote add origin https://github.com/JeffPsymot/testgit.git
+git remote -v
+git add * //pour ajouter tout y compris dans les fichiers dans les sous-dossiers
+git add *.* //pour ajouter tous les fichiers mais pas le contenu des dossiers

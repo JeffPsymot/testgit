@@ -1,0 +1,4 @@
+git init //création du dépot local
+git remote add origin https://github.com/JeffPsymot/testgit.git
+git remote -v
+git add *.*
