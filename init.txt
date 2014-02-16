@@ -10,4 +10,6 @@ git push origin master
 git commit -a -m "second"
 git branch //donne les branches locales
 ------ troisième
-
+------ création de la branche 1 et poursuite ici de master
+git log -p
+git log -U1 --word-diff //mieux car ça limite aux mots changés et un contexte d'une ligne
