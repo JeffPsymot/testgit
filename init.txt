@@ -10,9 +10,15 @@ git push origin master
 git commit -a -m "second"
 git branch //donne les branches locales
 ------ troisième
+Voici la première marque insérée par MERGE < HEAD
 ------ création de la branche 1 et poursuite ici de master
 git log -p
 git log -U1 --word-diff //mieux car ça limite aux mots changés et un contexte d'une ligne
 ------ je poursuis sur la branche master
 git log --pretty=format:"%h, %ar : %s" //affiche le code et le délai
+Voici la deuxième marque insérée par MERGE =======
+------ quatrième
+git checkout -b branche1
 
+Voici la troisième marque insérée par merge> branche1
+git merge branche1  CONFLICT (content): Merge conflict in init.txt (voir les marques ci-dessus)
