@@ -13,3 +13,6 @@ git branch //donne les branches locales
 ------ création de la branche 1 et poursuite ici de master
 git log -p
 git log -U1 --word-diff //mieux car ça limite aux mots changés et un contexte d'une ligne
+------ je poursuis sur la branche master
+git log --pretty=format:"%h, %ar : %s" //affiche le code et le délai
+
