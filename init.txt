@@ -10,4 +10,7 @@ git push origin master
 git commit -a -m "second"
 git branch //donne les branches locales
 ------ troisième
+------ quatrième
+git checkout -b branche1
+
 
